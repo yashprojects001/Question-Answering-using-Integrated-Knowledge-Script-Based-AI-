@@ -1,0 +1,17 @@
+| **Aspect**                  | **Program 1 – Pattern Matching**               | **Program 2 – Structured Representation**    | **Program 3 – Integrated Knowledge & Inference** |
+| --------------------------- | ---------------------------------------------- | -------------------------------------------- | ------------------------------------------------ |
+| Basic approach              | Direct matching of question patterns with text | Matches structured form of text and question | Uses structured text with world knowledge        |
+| Text handling               | Raw text strings                               | Structured internal form                     | Structured + background knowledge                |
+| Internal representation     | No internal structure                          | Uses subject–action–object structure         | Uses text structure + scripts                    |
+| Understanding of meaning    | No understanding                               | Partial understanding                        | Better understanding                             |
+| Use of world knowledge      | Not used                                       | Not used                                     | Used                                             |
+| Script / event knowledge    | Not present                                    | Not present                                  | Present                                          |
+| Inference capability        | Cannot infer                                   | Cannot infer                                 | Can infer                                        |
+| Handles implicit answers    | No                                             | No                                           | Yes                                              |
+| Dependency on exact wording | Very high                                      | Medium                                       | Low                                              |
+| Flexibility                 | Very low                                       | Moderate                                     | High                                             |
+| Accuracy of answers         | Low                                            | Medium                                       | High                                             |
+| Type of answers             | Explicit only                                  | Explicit but structured                      | Explicit and implicit                            |
+| Level of AI                 | Basic                                          | Intermediate                                 | Advanced                                         |
+| Real-world usefulness       | Very limited                                   | Limited                                      | Practical                                        |
+| Example output              | Matches words only                             | Matches structure                            | Reasoned answer                                  |
