@@ -1,0 +1,53 @@
+Algorithm :
+Algorithm: Integrated Knowledge-Based Question Answering
+1)Start
+2)Convert input text into structured representation
+3)Load world knowledge and scripts
+4)Store both text facts and world knowledge
+5)Accept question from user
+6)Convert question into structured form
+7)Match question with text facts
+8)If answer not directly found, apply inference using world knowledge
+9)Generate inferred answer
+10)Display answer
+11)Stop
+
+Flowchart:
+ ┌───────────┐
+ │   Start   │
+ └─────┬─────┘
+       │
+ ┌─────▼──────────────────┐
+ │ Convert Text to         │
+ │ Structured Form         │
+ └─────┬──────────────────┘
+       │
+ ┌─────▼──────────────────┐
+ │ Load World Knowledge &  │
+ │ Scripts                 │
+ └─────┬──────────────────┘
+       │
+ ┌─────▼────────────┐
+ │ Input Question   │
+ └─────┬────────────┘
+       │
+ ┌─────▼──────────────────┐
+ │ Direct Answer Found ?   │
+ └─────┬─────┬────────────┘
+       │Yes  │No
+       │     │
+ ┌─────▼───┐ ┌───────────────┐
+ │ Return  │ │ Apply          │
+ │ Answer  │ │ Inference      │
+ └─────┬───┘ └─────┬─────────┘
+       │           │
+       └─────┬─────┘
+             │
+       ┌─────▼─────┐
+       │ Display   │
+       │ Answer    │
+       └─────┬─────┘
+             │
+       ┌─────▼─────┐
+       │   Stop    │
+       └───────────┘
